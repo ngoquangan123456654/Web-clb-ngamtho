@@ -1,0 +1,137 @@
+/* PC */
+@media (min-width:64em){
+
+}
+
+/* Tablet */
+@media (max-width:63.9375em) and (min-width:46.225em){
+    #header {
+        height: 60px;
+    }
+
+    #slider {
+        margin-top: -60px;
+    }
+
+    #slider .slider-info{
+        padding: 36px;
+    }
+
+    #slider .slider-title{
+        padding: 12px 0px;
+    }
+    
+
+    #section-shop .shop-item-title{
+        text-align: left;
+    }
+}
+
+/* mobile */
+@media (max-width:46.1875em){
+    .s-col-half{
+        width: 50%;
+    }
+    .s-col-full{
+        width: 100%;
+    }
+
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #000;
+        height: 46px;
+    }
+    #header:hover{
+        background-color: #000;
+    }
+    #header .logoBlack,
+    #header .logoColor{
+        display: none;
+    }
+
+    #header:hover .logoColor{
+        display: none;
+    }
+
+    #header .header-text{
+        padding: 0px 12px;
+    }
+
+    #header .header-text a{
+        color: #fff;
+        opacity: 0.9;
+        font-size: 14px;
+        line-height: 46px;
+    }
+
+    #slider{
+        margin-top:46px;
+    }
+
+    #slider .slider-info{
+        padding: 20px;
+    }
+
+    #slider .slider-title{
+        padding: 8px 0px;
+        font-size: 16px;
+    }
+    
+    #slider .slider-text{
+        font-size: 14px;
+    }
+
+    #section-member  .member-row-2{
+        width: 100%;
+        margin: 0;
+    }
+
+    #content .section-title{
+        font-size: 26px;
+    }
+    #content .section-bio{
+        font-size: 14px;
+    }
+
+    #content .section-poem .poem-content{
+        font-size: 12px;
+        line-height: 20px;
+        padding-top: 32px;
+    }
+
+    #content .section-poem .poem-footer{
+        font-size: 14px;
+        padding: 0px 24px 12px 0px;
+    }
+
+    #section-member  .member-row-2 .member-item:last-child{
+        margin-left:25%;
+        margin-right:25%;
+    }
+
+    #section-member .member-name{
+        padding: 24px 12px;
+    }
+
+    #section-shop .shop-item-child{
+        border: 1px solid #000;
+    }
+    #section-shop .shop-item{
+        padding: 12px 18px;
+    }
+
+    #section-contact .contact-form{
+        width: 80%;
+    }
+
+    #footer .copyright{
+        padding: 12px;
+    }
+    #footer .social-list li a{
+        font-size: 32px;
+        padding: 6px 12px;
+    }
+}
